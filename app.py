@@ -693,7 +693,7 @@ def process_omr_api():
                 'message': f"An error occurred during processing: {str(e)}"
             }), 500
 
-application = app
+# application = app
 # --- WSGI entry point ---
 if __name__ == '__main__':
     app.run(debug=True, port=os.getenv("PORT", default=5000))
