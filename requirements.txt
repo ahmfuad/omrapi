@@ -1,0 +1,9 @@
+Flask
+opencv-python-headless
+numpy
+imutils
+Pillow
+gunicorn
+requests
+psycopg2-binary
+python-dotenv
